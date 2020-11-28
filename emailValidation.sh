@@ -7,7 +7,7 @@ read -p "Enter your email address : " email
 
 #abc.xyz@BridgeLabz.co.in
 #Required regex for email
-reg_pat="^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+[.]+[a-z]{2,4}([.][a-z]{2})*$"
+reg_pat="^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+[.][a-z]{2,4}([.][a-z]{2})*$"
 
 if [[ $email =~ $reg_pat ]]
 then
